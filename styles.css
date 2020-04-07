@@ -16,10 +16,8 @@
          margin:50px;   
         
              
-      }
+    }
 
-.col-lg-4 ,.col-md-6,.col-sm-12,.col-xs-12 img {
+.col-lg-4 ,.col-md-7,.col-sm-12,.col-xs-12 img {
   margin: 25px;
-  
-  width:40%;
 }      
