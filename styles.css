@@ -1,4 +1,5 @@
 .footer {
+  border-top:5px solid green;
     background-color: grey;
     text-align:center;
     margin-left:0px;
@@ -7,29 +8,18 @@
     width: 100%;    
   }
 
-  .container-fluid
-{
-    background-color: khaki;
-    border-bottom:5px solid green;    
-}
+  body {background-color: coral;}
 
 .col-xs-12,.col-sm-4,.col-lg-5
     {
         background-color:white;
          margin:50px;   
+        
              
       }
 
- .col-lg-4 ,.col-md-6,.col-sm-12,.col-xs-12
-       {
-          background-color:white;
-          float: left;
-          padding: 5px;
-          margin:50px;
-               
-        }
-    
-  .col-lg-4 ,.col-md-6,.col-sm-12,.col-xs-12 img {
-    margin: 12px;
-  }
-       
+.col-lg-4 ,.col-md-6,.col-sm-12,.col-xs-12 img {
+  margin: 25px;
+  
+  width:40%;
+}      
