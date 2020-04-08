@@ -10,7 +10,13 @@
 
   body {background-color: coral;}
 
-.col-xs-12,.col-sm-4,.col-lg-5
+
+.row {
+    margin-right: -15px;
+    margin-left: -50px;
+}
+
+.col-xs-12,.col-sm-4,.col-md-5,.col-lg-5
     {
         background-color:white;
          margin:50px;   
@@ -19,5 +25,23 @@
     }
 
 .col-lg-4 ,.col-md-7,.col-sm-12,.col-xs-12 img {
-  margin: 25px;
-}      
+  
+
+
+} 
+
+
+.w3-col.l3{width:24.99999%}    
+w3-col.m6{width:24.99999%}
+
+.w3-display-container{position:relative ;margin-bottom:16px;}
+.w3-display-topleft{position:absolute;left:0;top:0;}
+.w3-black{color:#fff;background-color:salmon; }
+.w3-padding{padding:8px 16px}
+
+.caption{
+  position: absolute;
+  top:45%;
+  left: 0;
+  width: 100%;
+}
