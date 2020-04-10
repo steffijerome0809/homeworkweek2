@@ -1,6 +1,7 @@
 
 .container{
   
+  
 
 }
 
@@ -20,7 +21,7 @@
     width: 100%;    
   }
 
-  body {background-color: coral;}
+  body {background-image: url(https://i.pinimg.com/originals/5d/97/b8/5d97b8478ab7fefd6af1b85225640e6d.jpg);}
 
 
 .portfolio {
@@ -33,9 +34,12 @@
 }
 
 .row{
+  margin-top:15px;
   margin-bottom: 60px;
+  margin-left: 0px;
+  margin-right: 0px;
   padding-left:10px;
-  
+  background-color: white;
   }
   .col{
     position:relative;
@@ -60,10 +64,13 @@
   margin-left:120px;
 
 }
+.image-margin{
+  margin:5px;
+}
 
 .top-left {
-  position: absolute;
-  top: 8px;
+  position: relative;
+  top: 2px;
   left: 16px;
 }
 .top-left-1 {
