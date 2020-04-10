@@ -35,16 +35,17 @@
 
 .row{
   margin-top:15px;
-  margin-bottom: 60px;
+  margin-bottom: 10px;
   margin-left: 0px;
   margin-right: 0px;
   padding-left:10px;
-  background-color: white;
+  
   }
   .col{
     position:relative;
     max-width:25%;
     margin-top:20px;
+    background-color: white;
   }
   .container-col{
     position: relative;
@@ -70,13 +71,18 @@
 
 .top-left {
   position: relative;
-  top: 2px;
+  bottom: 40px;
   left: 16px;
+  width: 150px;
+  height:20px;
+  background-color:cadetblue;
+
 }
 .top-left-1 {
   position: absolute;
-  top: 8px;
+  bottom: 40px;
   left: 120px;
+  background-color:cadetblue;
 }
 .col-xs-12,.col-sm-4,.col-md-5,.col-lg-5{
   background-color: white;
